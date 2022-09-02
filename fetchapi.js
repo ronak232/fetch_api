@@ -3,7 +3,7 @@ console.log("To Fetch the data click the fetch button.");
 let data = document.getElementById("btn").addEventListener("click", () => {
   let url = "https://random-data-api.com/api/v2/users";
   fetch(url)
-    //First is that promise is in the pending state .
+    //First is that promise is in the pending state. Once the api response is sucessful.
     .then((resp) => {
       return resp.json();
     })
