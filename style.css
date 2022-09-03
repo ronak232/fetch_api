@@ -4,6 +4,28 @@ padding: 0;
 box-sizing: border-box;
 }
 
-#output{
-    background-color: aquamarine;
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table, td{
+    border: 3px solid rgb(151, 234, 200);
+    margin: auto;
+    width: 50%
+}
+
+td{
+    width: 43%;
+}
+
+td img{
+    width: 100px;
 }
